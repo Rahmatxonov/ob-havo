@@ -6,7 +6,7 @@ const Fetch = () => {
   async function fetchData() {
     try {
       const response = await fetch(
-        "https://api.openweathermap.org/data/2.5/forecast?lat=41.2646&lon=69.2163&units=imperial&APPID=f49653e026f6bd0c4262ce24fd7466ae"
+        "https://api.openweathermap.org/data/2.5/forecast?lat=41.2646&lon=69.2163&units=impreial&&APPID=1e87220e4f4ec6ee7e701c613a61894e"
       );
 
       const data = await response.json();
