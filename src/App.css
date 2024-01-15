@@ -1,5 +1,10 @@
 body {
-  background-color: #888;
+  background: linear-gradient(
+    0deg,
+    rgb(254, 237, 237) 10%,
+    rgba(42, 189, 252, 0.99) 100%,
+    rgb(189, 221, 221) 0%
+  );
   display: flex;
   align-items: center;
   justify-content: center;

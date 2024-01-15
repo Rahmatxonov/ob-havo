@@ -1,0 +1,48 @@
+.card {
+  width: 800px;
+  height: 600px;
+  background-color: transparent;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.308);
+  border-radius: 20px;
+  padding: 20px;
+}
+.card__input {
+  width: 780px;
+  outline: none;
+  padding: 12px;
+  background: transparent;
+  border: none;
+}
+.card__span {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  column-gap: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+.search {
+  padding-left: 10px;
+  color: blue;
+  font-size: 22px;
+}
+.cloud {
+  color: #888;
+  font-size: 65px;
+}
+.tashkent {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.tashkent-text {
+  color: blue;
+  font-size: 32px;
+  font-weight: 600;
+}
+.tashkent-title {
+  color: blue;
+}
+.weather {
+  color: #888;
+}
